@@ -1,42 +1,37 @@
 body{
-    margin: 0;
-    font-family:'Poppins', sans-serif;
-    background-image:url("Images/top-banner.png");
-    background-repeat: no-repeat;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+
 }
-h1{
-    font-size: 50px;
-}
-.highlight{
+.highlight
+{
     color:orange;
 }
 .half-width{
-    width:40%;
-    float:left;
+    width:45%;
+    text-align:justify;
     margin-left:4%;
-    margin-right:4%;
-   
+    float:left;
 }
-.half-width img{
-  
+
+.sea{
+    background-image: url("Images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
 }
 .link-button{
-    text-decoration: none;
-    background-image:linear-gradient(45deg, lightsalmon, tomato);
-    color:white;
-    padding:8px 30px;
-    border-radius: 5%;
-    font-weight: bold;
-}
-.half-width1{
-    width:45%;
-    float:left;
-    margin-left:5%;
-}
-.link-button1{
     text-decoration:none;
     background-image:linear-gradient(45deg,lightsalmon,tomato);
-    padding:14px 25px;
-    border-radius: 5%;
-    color:white;
+    padding:8px 30px;
+}
+.happen{
+    color:hsl(342, 94%, 50%);
+}
+.link-button1{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding:10px 30px;
+    border-radius:5%;
 }
