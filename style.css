@@ -1,6 +1,5 @@
 body{
     font-family:'Poppins', sans-serif;
-   
 }
 
 .highlight{
@@ -20,9 +19,7 @@ body{
     width:43%;
     float: left;
     margin-left:5%;
-
 }
-
 .padma{
     background-color:silver;
 }
@@ -30,8 +27,7 @@ body{
     margin-bottom:470px;
     display: inline-block;
 }
-
- .formal{
+.formal{
     color:mediumblue;
  } 
 .medium{
@@ -46,17 +42,53 @@ body{
     text-align: justify;
     padding:22px;
     border-radius:10px;
-   
+    margin-bottom:200px; 
 }
-
 .box{
+    margin-top:500px;
     padding:1rem;
     border-radius: 5px;
     margin:0 28%;
     position: relative;
+    color: white;
+    position: absolute;
+    
 }
-
-
+.centered{
+    position: absolute;
+    top:35%;
+    left:20%;
+    transform: translate(-50%, -50%);
+}
+.box .top-bottom{
+    position:absolute;
+    top:50%;
+    left:80%;
+    transform: translate(-50%,-50%);
+    background-color:orange;
+    padding:10px 20px;
+    border-radius:5px;  
+}
+.colorful{
+    text-align:center;
+    color:mediumblue;
+}
+.second-width{
+    width:40%;
+    float:left;
+    margin-left:5%;
+    background-color:rgb(213, 216, 215);
+    border-radius:8px;
+    padding:2%;
+    text-align:justify;
+    box-shadow:2px 2px 5px;
+}
+.footer-content{
+    text-align: center;
+    background:black;
+    color: white;
+    padding:20px;
+}
 section{
-    height: 800px;
+    height:700px;
 }
